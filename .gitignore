@@ -1,7 +1,23 @@
-/.idea
-*.iml
+#-------------#
+# Maven Files #
+#-------------#
+target
+#---------------------------#
+# Anypoint Studio / Eclipse #
+#---------------------------#
+.studio
+.classpath
+.project
+.settings
+mule-project.xml
+.mule
+catalog
+#-----------#
+# Mac Files #
+#-----------#
 .DS_Store
-/node_modules
-/dist
-*.zip
-/npm-debug.log
+#------------------#
+# Derby / ActiveMQ #
+#------------------#
+activemq-data
+derby.log
